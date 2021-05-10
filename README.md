@@ -12,21 +12,23 @@ Inspired by others like [Beñat Espiña](https://github.com/benatespina/) and [h
 
 For my personal learning interest. More information about other tech & non-fiction books that I've read (no notes) can be found on [my page at Goodreads](https://www.goodreads.com/user/show/14559292-javier-estraviz).
 
-## Book list
+## Book list
 
-### In progress
+### In progress
+
+* ["Implementing Domain-Driven Design"](./books/implementing-domain-driven-design.md) by [Vaughn Vernon](https://vaughnvernon.com/). Addison-Wesley Educational Publishers, 2013. [↗️](https://learning.oreilly.com/library/view/implementing-domain-driven-design/9780133039900/)
 
 * ["Designing Data-Intensive Applications"](./books/designing-data-intensive-applications.md) by [Martin Kleppmann](https://martin.kleppmann.com/). O'Reilly Media, 2017. [↗️](https://dataintensive.net/)
 
 ### Completed (by reading year)
 
-#### 2021
+#### 2021
 
 * ["Designing Event-Driven Systems"](./books/designing-event-driven-systems.md) by [Ben Stopford](http://www.benstopford.com/). O'Reilly Media, 2018. [↗️](https://www.confluent.io/designing-event-driven-systems/)
 
 * ["Release It!: Design and Deploy Production-Ready Software (2nd ed.)"](./books/release-it.md) by [Michael T. Nygard](https://www.michaelnygard.com/). Pragmatic Bookshelf, 2018. [↗️](https://pragprog.com/titles/mnee2/release-it-second-edition/)
 
-#### 2020
+#### 2020
 
 * ["Domain-Driven Design Destilado"](./books/domain-driven-design-destilado.md) by [Vaughn Vernon](https://vaughnvernon.com/). Kalele, 2020 (Spanish translation). Original version: Addison-Wesley Professional, 2016. [↗️](https://kalele.io/books/ddd-destilado/)
 
