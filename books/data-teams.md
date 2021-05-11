@@ -1,4 +1,4 @@
-# Data Teams
+# Data Teams
 
 _by Jesse Anderson_
 

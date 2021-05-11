@@ -1,4 +1,4 @@
-# Release it!: Design and Deploy Production-Ready Software (2nd ed.)
+# Release it!: Design and Deploy Production-Ready Software (2nd ed.)
 
 _by Michael T. Nygard_
 

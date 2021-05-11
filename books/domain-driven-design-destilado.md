@@ -1,4 +1,4 @@
-# Domain-Driven Design Destilado
+# Domain-Driven Design Destilado
 
 _by Vaughn Vernon_
 

@@ -1,4 +1,4 @@
-# Designing Event-Driven Systems
+# Designing Event-Driven Systems
 
 _by Ben Stopford_
 
