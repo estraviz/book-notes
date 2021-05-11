@@ -1,4 +1,4 @@
-# Implementing Domain-Driven Design
+# Implementing Domain-Driven Design
 
 by Vaughn Vernon
 
@@ -124,3 +124,9 @@ by Vaughn Vernon
 <a name="chapter3">
     <h1>Chapter 3: Context Maps</h1>
 </a>
+
+
+---
+
+_Where to find the book:_
+* **["Implementing Domain-Driven Design"](https://learning.oreilly.com/library/view/implementing-domain-driven-design/9780133039900/) by [Vaughn Vernon](https://vaughnvernon.com/). Addison-Wesley Educational Publishers, 2013.**

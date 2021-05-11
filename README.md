@@ -16,7 +16,7 @@ For my personal learning interest. More information about other tech & non-ficti
 
 ### In progress
 
-* ["Implementing Domain-Driven Design"](./books/implementing-domain-driven-design.md) by [Vaughn Vernon](https://vaughnvernon.com/). Addison-Wesley Educational Publishers, 2013. [↗️](https://learning.oreilly.com/library/view/implementing-domain-driven-design/9780133039900/)
+* ["Implementing Domain-Driven Design"](./books/implementing-domain-driven-design.md) by Vaughn Vernon. Addison-Wesley Educational Publishers, 2013.
 
 * ["Designing Data-Intensive Applications"](./books/designing-data-intensive-applications.md) by [Martin Kleppmann](https://martin.kleppmann.com/). O'Reilly Media, 2017. [↗️](https://dataintensive.net/)
 
