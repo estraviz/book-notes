@@ -59,7 +59,7 @@ by Vaughn Vernon
 * Address the strategic initiatives of the business.
 * Tactical design &rarr; SW as a codification of domain experts' mental model.
 
-#### Grapping with the Complexity of Your Domain
+#### Grapping with the Complexity of Your Domain
 
 * Core Domain &rarr; DDD in key areas to the business. Other areas &rarr; Supporting Domains.
 
