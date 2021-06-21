@@ -1,4 +1,4 @@
-# Designing Data-Intensive Applications
+# Designing Data-Intensive Applications
 
 _by Martin Kleppmann_
 
@@ -8,13 +8,13 @@ _by Martin Kleppmann_
 
 ## Table of contents
 
-#### Part I. Foundations for Data Systems.
+#### Part I. Foundations for Data Systems.
 - [Chapter 1: Reliable, Scalable, and Maintainable Applications](#chapter1)
 - [Chapter 2: Data Models and Query Languages](#chapter2)
 - [Chapter 3: Storage and Retrieval](#chapter3)
 - [Chapter 4: Encoding and Evolution](#chapter4)
 
-#### Part II. Distributed Data.
+#### Part II. Distributed Data.
 - [Chapter 5: Replication](#chapter5)
 - [Chapter 6: Partitioning](#chapter6)
 - ... more to come
@@ -77,7 +77,7 @@ _Note: Replication is ignored in this chapter._
   - :thumbsup: &rarr; easy range scans. Keys ~ a concatenated index.
   - :thumbsdown: &rarr; some access patterns &rarr; hot spots.
 
-### Partitioning by Hash of Key
+### Partitioning by Hash of Key
 
 * Approach &rarr; use a **hash function** to determine the partition for a given key. Reason &rarr; avoid skew and hot spots.
 * Assign each partition a range of hashes. Every key whose hash falls within a partition's range &rarr; stored in that partition.
@@ -92,7 +92,7 @@ _Note: Replication is ignored in this chapter._
 * Still hot spots with partitioning by a hash key if all reads and writes are from the same key (ex. celebrity users on Social Media &rarr; large volume of writhes for a particular key).
 * Responsibility of the application to reduce the skew (ex. adding a random number to the key &rarr; keys distributed to different partitions).
 
-## Partitioning and Secondary Indexes
+## Partitioning and Secondary Indexes
 
 * A secondary index don't map neatly to partitions.
 * Approaches:
@@ -123,7 +123,7 @@ _Note: Replication is ignored in this chapter._
   - While rebalancing, the DB has to continue accepting reads and writes.
   - Only move the necessary data between nodes.
 
-### Strategies for Rebalancing
+### Strategies for Rebalancing
 
 * Ways of assigning partitions to nodes.
 
@@ -157,7 +157,7 @@ _Note: Replication is ignored in this chapter._
 * In both cases &rarr; number of partitions is independent of the number of nodes.
 * Another approach &rarr; have a fixed number of partitions per node. Size of each partition also stable.
 
-### Operations: Automatic or Manual Rebalancing
+### Operations: Automatic or Manual Rebalancing
 
 * Fully automated rebalancing &rarr; less operational work but unpredictable. Dangerous when done with automatic failure detection.
 * Better to have a human to prevent operational surprises.
@@ -180,7 +180,7 @@ _Note: Replication is ignored in this chapter._
 
 * MPP &rarr; **Massively Parallel Processing** relational DBs for analytics.
 
-## Summary
+## Summary
 
 * Ways of partitioning a large dataset into smaller subsets.
 * Goal of partitioning &rarr; spread the data and query load evenly accross multiple machines, avoid hot spots
